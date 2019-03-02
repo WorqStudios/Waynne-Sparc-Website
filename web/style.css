@@ -1,0 +1,79 @@
+.classjumbotron {
+	background-color:#5cdb95;
+	padding-top:50px;
+	border-radius: 4px;
+}
+
+.formdiv{
+	background-color:#05386b; 
+	color:#ffffff;padding:50px; 
+	margin-top: 60px; 
+	border-radius:4px;
+}
+
+#forgotpass{
+	float:right; 
+	color:#ffffff;
+}
+
+.submit{
+	background-color:#5cdb95;
+	color:#ffffff;
+}
+
+.changepassword{
+	background-color:#05386b;
+	color:#ffffff;
+}
+
+#hometable {
+	margin: 100px; 
+	padding-bottom: 130px;
+	border-radius: 4px;
+	padding-top:50px;
+}
+
+#search {
+	margin-top: 20px;
+    float: right;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.menu {
+	background-color:#ffffff;
+	color: #000000;
+	margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    margin-right: 14px;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.icon{
+	font-size: 45px;
+}
+
+td, th {
+	text-align: center;
+}
+
+#activemenu {
+	background-color:#5cdb95;
+	color: #ffffff;
+}
+
+p {
+	text-align: left;
+}
+
+#date {
+	margin-top: 25px;
+    width: 87%;
+    margin-left: 22px;
+}

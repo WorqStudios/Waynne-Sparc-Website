@@ -1,0 +1,7 @@
+
+To register a new database table:
+    -Add an enum entry for that table in ETables enum.
+    -Register table name and column names in Constants class.
+    -Register the number of columns that the table has in Constants class.
+    -Handle insert of values into that table in SQLUtils class.
+    -Create a cart struct under structs

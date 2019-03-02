@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Item</title>
+</head>
+<body>
+<form method="post" action="createItemServlet">
+    <h3>Enter Item Details</h3><br>
+    UID <input type="text" name="item_uid"/> <br/>
+    Name <input type="text" name="item_name"/> <br/>
+    Description <input type="text" name="item_description"/> <br/>
+    Quantity <input type="number" name="available_quantity"/> <br/>
+    Price <input type="text" name="item_price"/> <br/>
+
+    Category;
+    <select id="item_category">
+        <option value="any">Any</option>
+        <option value="clothing">Clothing</option>
+        <option value="beautyAndBags">Beauty And Bags</option>
+        <option value="accessoriesAndElectronics">Accessories And Electronics</option>
+    </select><br/>
+
+    <!--<form method="post" action="product.jsp">-->
+        <!--<img src="" type="submit">-->
+    <!--</form>-->
+
+    Category;
+    <select id="item_sub_category">
+        <option value="any">Any</option>
+        <option value="clothing">Clothing</option>
+        <option value="beautyAndBags">Beauty And Bags</option>
+        <option value="accessoriesAndElectronics">Accessories And Electronics</option>
+    </select><br/>
+
+    Is On Sale <input type="checkbox" name="is_on_sale"/> <br/>
+    Before Sale Price <input type="text" name="before_sale_price"/> <br/>
+    Sale Begin Date <input type="text" name="sale_begin_date"/> <br/>
+    Sale End Date <input type="text" name="sale_end_date"/> <br/>
+    Path To Main Image <input type="text" name="path_to_main_image"/> <br/>
+    Paths To Other Images <input type="text" name="paths_to_other_images"/> <br/>
+    Date Time Added <input type="number" name="date_time_added"/> <br/>
+
+    <input type="submit" name="Create Item"/> <br/>
+</form>
+</body>
+</html>

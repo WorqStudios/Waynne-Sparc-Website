@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Unprocessed Order</title>
+</head>
+<body>
+<form method="post" action="createUnprocessedOrderServlet">
+    <h3>Enter Unprocessed order Details</h3><br>
+    Order UID <input type="text" name="order_uid"/> <br/>
+    Item UID <input type="text" name="item_uid"/> <br/>
+    Item Name <input type="text" name="item_name"/> <br/>
+    Customer Name <input type="text" name="customer_username"/> <br/>
+    Quantity <input type="number" name="quantity"/> <br/>
+    Price Per Item <input type="text" name="cost_per_item"/> <br/>
+    Date Time Of Order<input type="text" name="date_time_of_order"/> <br/>
+    Shipping Address <input type="text" name="shipping_address"/> <br/>
+
+    Shipping Type
+    <select id="shipping_type" name="shipping_type">
+        <option value="standard">Standard</option>
+        <option value="express">Express</option>
+    </select><br/>
+
+    Shipping Cost <input type="number" name="shipping_cost"/> <br/>
+    Has Coupon <input type="checkbox" name="has_coupon"/> <br/>
+    Coupon Value <input type="number" name="coupon_value"/> <br/>
+
+    <input type="submit" name="Create Unprocessed Order"/> <br/>
+</form>
+</body>
+</html>
